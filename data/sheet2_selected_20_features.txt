@@ -1,0 +1,241 @@
+{
+  "dataset": "AFCD Release 3 - sheet2.csv",
+  "selected_feature_count": 20,
+  "selection_reason": "The selected features are intended as required user inputs. They keep interpretable nutrients with low missing values, retain Moisture (water) because sheet2 includes both solids and liquids, cover several nutrient families, and avoid highly overlapping derived features.",
+  "selected_features": [
+    {
+      "feature": "Moisture (water) (g)",
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 56.406675062972305,
+      "std": 30.727425658759245,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Protein (g)",
+      "min": 0.0,
+      "max": 85.0,
+      "mean": 11.044584382871536,
+      "std": 10.926467389747433,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Fat, total (g)",
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 9.968261964735516,
+      "std": 18.22261556309403,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Ash (g)",
+      "min": 0.0,
+      "max": 99.8,
+      "mean": 1.8953400503778335,
+      "std": 5.157891740457922,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Total dietary fibre (g)",
+      "min": 0.0,
+      "max": 88.7,
+      "mean": 2.93595717884131,
+      "std": 6.212685806536685,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Available carbohydrate, without sugar alcohols (g)",
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 16.52147355163728,
+      "std": 23.11476473879816,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Total sugars (g)",
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 6.685075566750631,
+      "std": 13.991114659249803,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Starch (g)",
+      "min": 0.0,
+      "max": 85.5,
+      "mean": 9.669836272040303,
+      "std": 18.030647527383206,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Sodium (Na) (mg)",
+      "min": 0.0,
+      "max": 38178.0,
+      "mean": 299.70088161209065,
+      "std": 1700.3623452602112,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Potassium (K) (mg)",
+      "min": 0.0,
+      "max": 50009.0,
+      "mean": 349.801637279597,
+      "std": 1364.9616345212874,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Calcium (Ca) (mg)",
+      "min": 0.0,
+      "max": 1890.0,
+      "mean": 61.019521410579344,
+      "std": 149.38164584449035,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Phosphorus (P) (mg)",
+      "min": 0.0,
+      "max": 2000.0,
+      "mean": 157.03148614609572,
+      "std": 164.31449402364413,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Magnesium (Mg) (mg)",
+      "min": 0.0,
+      "max": 670.0,
+      "mean": 38.0654911838791,
+      "std": 60.738363719273984,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Iron (Fe) (mg)",
+      "min": 0.0,
+      "max": 123.6,
+      "mean": 1.8664609571788413,
+      "std": 4.918247872613876,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Zinc (Zn) (mg)",
+      "min": 0.0,
+      "max": 20.25,
+      "mean": 1.5014546599496221,
+      "std": 2.043339023892761,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Cholesterol (mg)",
+      "min": 0.0,
+      "max": 1250.0,
+      "mean": 34.47103274559194,
+      "std": 71.31070874555593,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Thiamin (B1) (mg)",
+      "min": 0.0,
+      "max": 22.778,
+      "mean": 0.16207808564231738,
+      "std": 0.6744862304437433,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Riboflavin (B2) (mg)",
+      "min": 0.0,
+      "max": 17.111,
+      "mean": 0.1407903022670025,
+      "std": 0.5300371205810583,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Niacin (B3) (mg)",
+      "min": 0.0,
+      "max": 124.0,
+      "mean": 2.5113727959697734,
+      "std": 4.620590120394098,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "feature": "Vitamin C (mg)",
+      "min": 0.0,
+      "max": 347.0,
+      "mean": 7.396725440806045,
+      "std": 23.951406157997564,
+      "missing_values": 0,
+      "missing_percent": 0.0
+    }
+  ],
+  "removed_correlated_feature_groups": [
+    {
+      "kept": "Protein (g)",
+      "removed": [
+        "Nitrogen (g)"
+      ],
+      "reason": "Nitrogen is closely related to protein and is less intuitive for users."
+    },
+    {
+      "kept": "Available carbohydrate, without sugar alcohols (g)",
+      "removed": [
+        "Available carbohydrate, with sugar alcohols (g)"
+      ],
+      "reason": "Both carbohydrate measures are very similar; one representative is enough."
+    },
+    {
+      "kept": "Total sugars (g)",
+      "removed": [
+        "Added sugars (g)",
+        "Free sugars (g)",
+        "Fructose (g)",
+        "Glucose (g)",
+        "Sucrose (g)",
+        "Lactose (g)"
+      ],
+      "reason": "Specific sugar components overlap with total sugars and increase input complexity."
+    },
+    {
+      "kept": "Fat, total (g)",
+      "removed": [
+        "Total saturated fatty acids, equated (g)",
+        "Total monounsaturated fatty acids, equated (g)",
+        "Total polyunsaturated fatty acids, equated (g)"
+      ],
+      "reason": "Detailed fatty acid groups are useful for advanced modelling but too specific for required input."
+    },
+    {
+      "kept": "Niacin (B3) (mg)",
+      "removed": [
+        "Niacin derived from tryptophan (mg)",
+        "Niacin derived equivalents (mg)",
+        "Tryptophan (mg)"
+      ],
+      "reason": "Derived niacin and tryptophan measures overlap with the direct vitamin B3 feature."
+    },
+    {
+      "kept": "Vitamin C (mg)",
+      "removed": [
+        "Dehydroascorbic acid (mg)",
+        "L-ascorbic acid (mg)"
+      ],
+      "reason": "Vitamin C is easier to enter than its component forms."
+    }
+  ]
+}
